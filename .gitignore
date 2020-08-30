@@ -1,0 +1,20 @@
+dist
+logs
+test/coverage
+node_modules
+uploads
+mysql
+
+*.bak
+*.bkp
+*.log*
+.eslintcache
+
+.env
+
+*.pem
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

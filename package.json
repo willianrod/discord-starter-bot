@@ -1,0 +1,35 @@
+{
+  "name": "discord-starter-bot",
+  "author": {
+    "email": "hi@willianrod.com",
+    "name": "Willian Rodrigues",
+    "url": "https://willianrod.com"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "lint": "eslint . --cache"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "bluebird": "3.7.2",
+    "discord.js": "12.3.1",
+    "dotenv": "8.2.0",
+    "readline-sync": "1.4.10"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.0",
+    "eslint": "7.7.0",
+    "eslint-config-airbnb": "18.1.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-import-helpers": "1.0.2",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "nodemon": "1.19.4",
+    "npm-run-all": "4.1.5",
+    "rimraf": "3.0.0"
+  }
+}
